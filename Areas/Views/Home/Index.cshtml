@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+<div class="row">
+    <div class="col-md-4">
+        @Html.ActionLink("網站1", "Index", "Site1", new { area = "Site1" }, new { @class = "btn btn-success" })
+    </div>
+    <div class="col-md-4">
+        @Html.ActionLink("網站2", "Index", "Site2", new { area = "Site2" }, new { @class = "btn btn-danger" })
+    </div>
+    <div class="col-md-4">
+        @Html.ActionLink("網站3", "Index", "Site3", new { area = "Site3" }, new { @class = "btn btn-primary" })
+    </div>
+</div>
